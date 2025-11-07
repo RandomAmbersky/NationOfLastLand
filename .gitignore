@@ -1,0 +1,39 @@
+# Unity-specific generated files and directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+# MemoryCaptures can get excessive in size.
+# MemoryCaptures/
+
+# Visual Studio / Rider / IDE generated files
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# macOS generated files
+.DS_Store
+
+# Windows generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux generated files
+# (Add any specific to your setup if needed)
+
+# Other common files to ignore
+*.bak
+*.orig
+*.meta.orig
+*.meta.bak
