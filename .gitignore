@@ -37,3 +37,6 @@ Desktop.ini
 *.orig
 *.meta.orig
 *.meta.bak
+git-reset-author.sh
+git-set-local.sh
+git-set-remotes.sh
