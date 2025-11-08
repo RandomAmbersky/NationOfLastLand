@@ -569,14 +569,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 921564330619333862, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.27054295
-      objectReference: {fileID: 0}
-    - target: {fileID: 921564330619333862, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.23932835
-      objectReference: {fileID: 0}
-    - target: {fileID: 921564330619333862, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.77
       objectReference: {fileID: 0}
@@ -617,17 +609,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1911735879112805475, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911735879112805475, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1913331454}
-    - target: {fileID: 1911735879112805475, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
-      propertyPath: rotationSpeed
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 2627073966184637577, guid: 7e441c77279684e07b12e98ab5d0af78, type: 3}
       propertyPath: m_Name
       value: Car

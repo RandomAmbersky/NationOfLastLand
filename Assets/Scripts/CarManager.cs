@@ -9,10 +9,12 @@ public class CarManager : MonoBehaviour
     [SerializeField] private float speed = 2.0f; 
     [SerializeField] private float rotationSpeed = 2.0f; 
 
+    private Rigidbody2D rb;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -75,5 +77,14 @@ GameObject[] objectsInLayer = Object.FindObjectsByType<GameObject>(FindObjectsSo
         }
 
         // Debug.Log($"Ближайший объект: {closestObject.name}, расстояние: {minDistance:F2}");
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Полная остановка при любом столкновении
+        rb.linearVelocity = Vector2.zero;
+    
+        // Можно добавить эффект: звук, вибрация, мигание и т.д.
+        Debug.Log("Столкновение! Машина остановлена.");
     }
 }
